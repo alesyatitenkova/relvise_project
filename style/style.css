@@ -359,3 +359,65 @@ header{
     letter-spacing: 0.2px;
     color: #737373;
 }
+.company {
+}
+.company-logo {
+    background: #FAFAFA;
+    padding-top: 50px;
+    padding-bottom: 137px;
+}
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.company-form {
+}
+.subsribe {
+    background: #17213C;
+    border-radius: 2px; 
+    min-width: 986px;
+    padding: 30px 40px 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subsribe-info {
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    max-width: 266px;
+}
+.subsribe-btn {
+    padding: 15px 22.5px;
+    background: #FF7B47;
+    font-size: 14px;
+    line-height: 200%;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-left: -2px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.company-bg {
+}
+form{
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+}
+input.subsribe-input{
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 400px;
+    padding: 15px 0px 15px 20px;
+    height: 58px;
+}
+input.subsribe-input::placeholder{
+    font-size: 14px;
+    line-height: 200%;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
