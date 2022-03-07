@@ -155,7 +155,7 @@ header{
     color: #737373;
     max-width: 224px;    
 }
-.get{
+.finance-item__get{
     background: #0D5C63;
 }
 .get>h2{
@@ -531,4 +531,109 @@ input.subsribe-input::placeholder{
     letter-spacing: 0.2px;
     color: #FFFFFF;
     margin-right: 12.5px;
+}
+.footer-center {
+    background: #17213C;
+    padding: 50px 0;
+}
+.center-box {
+    display: flex;    
+    justify-content: space-between;
+}
+.center-item {
+}
+.center-title {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+.center-info {
+    padding-bottom:  10px;
+}
+.center-info>a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.center-info:last-child{
+    padding-bottom: 0;
+}
+.tel {
+    position: relative;
+    margin-left: 34px;
+}
+.tel::before{
+    content: "";
+    background: url('../img/telephone1.svg');
+    background-repeat:  no-repeat;
+    border-style: cover;
+    width: 24px;
+    height: 24px;
+    position: absolute; 
+    left: -34px;   
+}
+.street {
+    position: relative;
+    margin-left: 34px;
+}
+.street::before{
+    content: "";
+    background: url('../img/bx_bx-map.svg');
+    background-repeat:  no-repeat;
+    border-style: cover;
+    width: 24px;
+    height: 30px;
+    position: absolute; 
+    left: -34px;   
+}
+.mail {
+    position: relative;
+    margin-left: 34px;
+}
+.mail::before{
+    content: "";
+    background: url('../img/carbon_send-alt.svg');
+    background-repeat:  no-repeat;
+    border-style: cover;
+    width: 24px;
+    height: 26px;
+    position: absolute; 
+    left: -34px;   
+}
+.footer-bottom {
+    background: white;
+    padding: 25px 0;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-info {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.bottom-social {
+    display: flex;
+    align-items: center;
+    padding-right: 38px;
+}
+.bottom-item {
+    padding-right: 20px;
+}
+.bottom-item:last-child{
+    padding-right: 0;
+}
+.bottom-link {
+}
+.bottom-img {
 }
