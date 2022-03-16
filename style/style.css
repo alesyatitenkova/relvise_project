@@ -37,8 +37,8 @@ body{
 .wrapper{
     min-height: 100%;
     overflow: hidden;
-    /*display: flex;
-    flex-direction: column;*/
+    display: flex;
+    flex-direction: column;
 }
 .container{
     min-width: 1046px;
@@ -136,8 +136,7 @@ header{
     padding: 35px 40px;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 }
-.finance-item__img {
-}
+
 .finance-item__title {
     padding: 10px 0;
     font-weight: bold;
@@ -155,8 +154,19 @@ header{
     color: #737373;
     max-width: 224px;    
 }
-.finance-item__get{
+.finance-item__get {
+    max-width: 328px;
+    min-height: 242px;
+    background: white;
+    padding: 35px 40px;
     background: #0D5C63;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0.1px;
+}
+/*.get{
+    background: #0D5C63;    
 }
 .get>h2{
     color: white;
@@ -548,7 +558,7 @@ input.subsribe-input::placeholder{
     line-height: 150%;
     letter-spacing: 0.1px;
     color: #FFFFFF;
-    padding: 20px;
+    padding: 20px 0;
 }
 .center-info {
     padding-bottom:  10px;
@@ -633,7 +643,76 @@ input.subsribe-input::placeholder{
 .bottom-item:last-child{
     padding-right: 0;
 }
-.bottom-link {
+/*adaptiv*/
+@media (max-width:992px){
+    .services-box{
+        flex-wrap: nowrap;
+    }
 }
-.bottom-img {
+@media (max-width:834px) {
+    .practice-box{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .subsribe{
+        bottom: 0;
+        width: 890px;
+    } 
+}
+@media (max-width:812px) {
+    .practice{
+        padding-top: 0;
+    } 
+    .subsribe{
+       width: 880px;
+    } 
+}
+@media (max-width:800px){
+    .menu{
+        justify-content: center;
+   }
+   .header-info{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   .header-info__title{
+       text-align: center;
+   }
+    .subsribe{
+        width: 820px;
+    } 
+    .get-item{
+        padding: 30px 20px;
+    }
+    .get-item:nth-child(2){
+        padding: 60px 20px;
+    }
+}
+@media (max-width:768px){
+    .services-box_item {
+        padding: 20px 30px;
+        max-width: 240px;
+    }
+    .achievements{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .achievements-item{
+        max-width: 100%;
+        width: 230px;
+    }
+    .achievements-item:last-child{
+        margin-top: 20px;
+    }
+    .center-box{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .center-item{
+        padding-right: 20px;
+    }
+    .center-item:last-child{
+        padding-top: 20px;
+    }
 }
