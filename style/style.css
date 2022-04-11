@@ -817,3 +817,15 @@ input.subsribe-input::placeholder{
         font-size: 50px;
     }
 }
+@media (max-width: 360px){
+    .box-video {
+        width: 330px;
+        height: 250px;
+    }
+    .company-logo {
+        padding-bottom: 0px;
+    }
+    .top {
+        display: none;
+    }
+}
